@@ -14,7 +14,7 @@ y_values = [math.sin(math.radians(x)) for x in x_values]
 
 # Plotting the sine wave
 plt.figure(figsize=(10, 5))
-plt.plot(x_values, y_values, linestyle='--', linewidth=2.5, color='purple', marker='o', markersize=3)
+plt.plot(x_values, y_values, linestyle='--', linewidth=2.5, color='purple', marker='o', markersize=1)
 
 # Label the graph
 plt.title("Sine Wave: y = sin(x)")
